@@ -1,6 +1,6 @@
 - id: pangu 
   name: pangu
-  entry: pangup
+  entry: pangup.py
   language: python 
   types: [text] 
   files: \.(md|rst|txt)$ 
