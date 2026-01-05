@@ -1,0 +1,9 @@
+[project]
+name = "pangu-precommit"
+version = "0.1.0"
+description = "Add pre-commit hooks for pangu.py (https://github.com/vinta/pangu.py)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pangu>=4.0.6.1",
+]
