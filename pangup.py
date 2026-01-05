@@ -11,8 +11,9 @@ def cli():
     args = parser.parse_args()
 
     for filepath in args.files:
-        with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(pangu.spacing_file(filepath))
+        content = pangu.spacing_file(filepath)
+        with open(filepath, 'w') as f:
+            f.write(content)
 
 
 if __name__ == '__main__':

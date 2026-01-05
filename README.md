@@ -13,19 +13,6 @@ It automatically adds appropriate spacing between CJK characters and half-width 
 
 **中文文档 | [Chinese Documentation](README.zh-CN.md)**
 
-## Installation
-
-### Using uv (recommended)
-
-```bash
-uv install
-```
-
-### Using pip
-
-```bash
-pip install -e .
-```
 
 ## Configuration
 
@@ -43,8 +30,8 @@ Create a `.pre-commit-config.yaml` file in your project root and add the followi
 
 ```yaml
 repos:
-  - repo: https://github.com/yourusername/pangu-precommit
-    rev: v0.1.0  # Use the latest version
+  - repo: https://github.com/kingronjan/pangu-precommit
+    rev: 0.1.4  # Use the latest version
     hooks:
       - id: pangu
 ```

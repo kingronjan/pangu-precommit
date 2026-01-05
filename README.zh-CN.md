@@ -11,20 +11,6 @@ pangu-precommit 是一个 pre-commit hook，可以自动处理以下文件类型
 
 它会自动在 CJK（中文、日文、韩文）和半角字符之间添加适当的空格，使文本更加易读。
 
-## 安装
-
-### 使用 uv（推荐）
-
-```bash
-uv install
-```
-
-### 使用 pip
-
-```bash
-pip install -e .
-```
-
 ## 配置
 
 ### 1. 安装 pre-commit
@@ -41,8 +27,8 @@ pip install pre-commit
 
 ```yaml
 repos:
-  - repo: https://github.com/yourusername/pangu-precommit
-    rev: v0.1.0  # 使用最新的版本号
+  - repo: https://github.com/kingronjan/pangu-precommit
+    rev: 0.1.4  # 使用最新的版本号
     hooks:
       - id: pangu
 ```
